@@ -1,0 +1,46 @@
+.cards{
+    display: flex;
+}
+
+.first{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px 230px 230px;
+    width: 1400px;
+    height: 500px;
+
+}
+
+.hotkey{
+    position: absolute;
+    top: 1px;
+    left: 9px;
+    color: white;
+    font-size: 30px;
+}
+
+.title{
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.card {
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 50px;
+    color: gray;
+    cursor: pointer;
+    background-color: #1C1C1C;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.modal span { 
+color:white
+}
+.select div {
+    background-color: black !important;
+    border-radius: 16px !important;
+}
